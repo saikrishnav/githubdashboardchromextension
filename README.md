@@ -1,4 +1,4 @@
-# githubdashboardchromextension
+# GitHub Chrome Extension that adds a dashboard to Org Home Page
 Adds a Dashboard to the Github Org Home Page 
 
 Open Chrome or Microsoft Edge Chromium Browser
