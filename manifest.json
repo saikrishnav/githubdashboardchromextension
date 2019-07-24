@@ -5,7 +5,7 @@
   "permissions": ["activeTab", "declarativeContent", "storage"],
 
   "content_scripts": [ {
-    "js": [ "background.js", "bundle.js", "post-bundle.js"  ],
+    "js": [ "background.js", "bundle.js"  ],
     "matches": [ "http://github.com/*", "https://github.com/*" ]    
   } ],
   "manifest_version": 2
