@@ -1,0 +1,12 @@
+{
+  "name": "GitHub Org Issues Dashboard",
+  "version": "1.0",
+  "description": "",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+
+  "content_scripts": [ {
+    "js": [ "background.js", "bundle.js", "post-bundle.js"  ],
+    "matches": [ "http://github.com/*", "https://github.com/*" ]    
+  } ],
+  "manifest_version": 2
+}
